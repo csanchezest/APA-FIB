@@ -1,0 +1,10 @@
+# Instrucciones de ejecución
+Para poder ejecutar el script correctamente, deben seguirse los siguientes pasos:
+1. Es necesaria su ejecución desde el Colab, con lo cual es necesario cargar el fichero en dicha plataforma.
+2. Con tal de ejecutar el código, se requiere del fichero *.csv* del conjunto de datos. El script incorpora, al final del documento, un link habilitado que redirigirá al usuario a la página UCI del conjunto de datos con que se trabajará. Con tal de descargarlo, debe accederse a la opción *Data Folder* en la parte superior de la página web y que, a su vez, redirigirá al usuario a la web desde la cual descargar el fichero.
+3. Con tal de garantizar la correcta ejecución del código, se recomienda encarecidamente descomentar las instrucciones de la primera celda. Dichos comandos garantizan la instalación de todas las librerías susceptibles de dar problemas al usuario. En caso que el usuario encontrase, durante la ejecución del programa, alguna otra librería faltante, siendo la librería faltante *LIB*, este deberá añadir la instrucción de instalación ```!pip3 install LIB --user --upgrade --quiet``` preferiblemente en la primera celda ya comentada. Una vez se hayan ejecutado los comandos de instalación de las librerías, se recomienda al usuario volver a comentar dichas instrucciones y, finalmente, reiniciar el entorno de ejecución para ejecutar el script.
+4. El script está diseñado para ser ejecutado secuencialmente. Algo a destacar de dicha ejecución es que, para que se lleve a cabo, el usuario debe asegurarse que darle a la celda de la carga de datos el fichero *.csv* anteriormente descargado. Una vez hecho esto, el programa podrá continuar con el flujo de ejecución correctamente.
+
+Siguiendo estos pasos, el usuario debería ser capaz de poder ejecutar correctamente el código, sin encontrar problema alguno.
+
+Autoría: Daniel Muñoz Arroyo y Cristian Sánchez Estapé
